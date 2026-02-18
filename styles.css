@@ -1019,3 +1019,11 @@ h3{font-size: 22px; margin:0 0 10px 0;}
   .wg-project-card__thumb2{width:120px !important;height:170px !important;}
   .wg-pill{white-space:normal !important;}
 }
+
+/* Rail filters */
+.rail-filters{margin:10px 0 14px 0;}
+.filter-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.filter-search{flex:1;min-width:240px;padding:10px 12px;border-radius:12px;border:1px solid rgba(0,0,0,0.14);background:#fff;color:#102016;font-weight:800}
+.filter-chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:8px 10px;border-radius:999px;border:1px solid rgba(0,70,40,0.22);background:#fff;color:#0b1b12;font-weight:900;font-size:12px;cursor:pointer}
+.chip.is-active{background:rgba(18,120,70,0.12);border-color:rgba(18,120,70,0.45)}
